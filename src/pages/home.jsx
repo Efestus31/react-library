@@ -1,4 +1,4 @@
-import MainMenu from "../components/MainMenu"
+
 
 export default function home() {
 
@@ -6,12 +6,6 @@ export default function home() {
 
     return (
         <>
-            <header>
-                <div className="logo">
-                    LOGO
-                </div>
-                <MainMenu />
-            </header>
             <main>
                 <h1>Home Page</h1>
                 <p>
@@ -20,11 +14,6 @@ export default function home() {
                     Delectus, doloribus praesentium? Quibusdam maiores laborum ab quas tenetur, aut ad recusandae?
                 </p>
             </main>
-
-
-            <footer>
-                <p>copyright 2024</p>
-            </footer>
         </>
     )
 }
