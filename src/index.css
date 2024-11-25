@@ -8,16 +8,41 @@
 header {
   background-color: black;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 1.5rem;
+
+
 
   a {
     text-decoration: none;
     color: white;
     padding: 1rem;
+
+    &.active {
+      text-decoration: underline;
+      color: rgb(157, 52, 255);
+    }
   }
 
-  nav {
-    display: flex;
-    justify-content: flex-end;
 
+}
+
+main {
+  height: calc(100vh - 64px);
+
+  h1 {
+    padding: 2rem;
   }
+
+  p {
+    padding: 2rem;
+  }
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 1rem;
 }

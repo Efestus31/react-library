@@ -1,3 +1,7 @@
+import MainMenu from "../components/MainMenu"
+
+
+
 export default function books() {
 
 
@@ -8,16 +12,16 @@ export default function books() {
                 <div className="logo">
                     LOGO
                 </div>
-                <nav>
-                    <a href="/">Home</a>
-                    <a href="/books">Books</a>
-                    <a href="/about">About</a>
-                    <a href="/Contacts">Contacts</a>
-                </nav>
+                <MainMenu />
 
             </header>
             <main>
                 <h1>Books Page</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Suscipit ex dignissimos odio unde animi, ipsam saepe omnis asperiores.
+                    Delectus, doloribus praesentium? Quibusdam maiores laborum ab quas tenetur, aut ad recusandae?
+                </p>
             </main>
             <footer>
                 <p>copyright 2024</p>
